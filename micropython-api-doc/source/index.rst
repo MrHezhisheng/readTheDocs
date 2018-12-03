@@ -9,7 +9,8 @@ Welcome to EvaEngine's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+    codey&rocky/index.rst
+    codey&rocky/tutorial.rst
 
 
 Indices and tables
