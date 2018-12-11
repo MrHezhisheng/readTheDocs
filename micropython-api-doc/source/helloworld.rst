@@ -4,6 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to EvaEngine's documentation!
+Welcome to EvaEngine's documentation!
 =====================================
 
 .. toctree::
