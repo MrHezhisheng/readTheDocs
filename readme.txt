@@ -15,5 +15,7 @@ git 常用命令：
 >git push origin master 
 将其本地存储库与远程存储库同步
 >git pull 
-
+检出，切换分支
 >git checkout 
+提交该分支到远程仓库
+>git push --set-upstream origin new_branch
