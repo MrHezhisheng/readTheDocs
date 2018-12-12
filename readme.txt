@@ -19,3 +19,9 @@ git 常用命令：
 >git checkout 
 提交该分支到远程仓库
 >git push --set-upstream origin new_branch
+
+python如何创建自己的pipy:(python2 运行有问题，但是Python3正常)
+>python2 setup.py check 
+>pip2 install twine
+>python2 setup.py register
+>python2 setup.py sdist upload
