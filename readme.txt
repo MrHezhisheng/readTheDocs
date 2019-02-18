@@ -25,3 +25,8 @@ python如何创建自己的pipy:(python2 运行有问题，但是Python3正常)
 >pip2 install twine
 >python2 setup.py register
 >python2 setup.py sdist upload
+
+如何打包python包并上传到pypi库
+1、执行打包代码"sudo python3 ./src/setup.py sdist"
+2、注册登录"python3 ./src/setup.py register"
+3、打包并上传代码到pipy库"sudo python3 ./src/setup.py sdist upload"
