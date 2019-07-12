@@ -36,6 +36,20 @@ git 常用命令：
 从git栈中获取到最近一次stash进去的内容，恢复工作区的内容
 >git stash pop
 
+
+查看远程分支
+git branch -a
+带有“*”号的表示当前分支 
+
+查看本地分支
+git branch
+
+切换分支命令
+git checkout -b v1 origin/v1
+
+切换回master
+git checkout master
+
 python如何创建自己的pipy:(python2 运行有问题，但是Python3正常)
 >python2 setup.py check 
 >pip2 install twine
