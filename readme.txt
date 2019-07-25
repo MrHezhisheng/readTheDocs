@@ -24,6 +24,25 @@ git 常用命令：
 检出，切换分支
 >git checkout 
 
+丢弃工作区的修改（改动）：
+>git checkout -- <文件>...
+eg:
+mk10812@ITHPZJ01054 MSYS /h/esp32/mpy_latest/submodule/esp-idf
+$ git status
+位于分支 v3.1
+您的分支和 'origin/master' 出现了偏离，
+并且分别有 506 和 3703 处不同的提交。
+  （使用 "git pull" 来合并远程分支）
+尚未暂存以备提交的变更：
+  （使用 "git add <文件>..." 更新要提交的内容）
+  （使用 "git checkout -- <文件>..." 丢弃工作区的改动）
+        修改：     components/bootloader/subproject/main/esp32.bootloader.ld
+        修改：     components/driver/include/driver/uart.h
+        修改：     components/driver/uart.c
+修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
+mk10812@ITHPZJ01054 MSYS /h/esp32/mpy_latest/submodule/esp-idf
+$ git checkout -- components/
+
 提交该分支到远程仓库
 >git push --set-upstream origin new_branch
 
