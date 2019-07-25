@@ -36,6 +36,12 @@ git 常用命令：
 从git栈中获取到最近一次stash进去的内容，恢复工作区的内容
 >git stash pop
 
+指定要合并的分支：
+>git branch --set-upstream-to=origin v3.1
+eg:
+mk10812@ITHPZJ01054 MINGW64 /c/msys32/home/mk10812/project/mpy_/submodule/esp-idf (v3.1)
+$ git branch --set-upstream-to=origin v3.1
+Branch 'v3.1' set up to track remote branch 'master' from 'origin'.
 
 查看远程分支
 git branch -a
