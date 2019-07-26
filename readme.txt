@@ -5,7 +5,10 @@ git 常用命令：
 查看上提交的日志信息
 >git log 
  :q
- 
+限定指定日期范围的log:
+>git log --after '10-1-2019'
+注意：使用 --after和--before 指定前后log
+
 查看显示有变更的文件
 >git status 
 
