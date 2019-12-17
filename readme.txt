@@ -66,17 +66,20 @@ $ git branch --set-upstream-to=origin v3.1
 Branch 'v3.1' set up to track remote branch 'master' from 'origin'.
 
 查看远程分支
-git branch -a
+#git branch -a
 带有“*”号的表示当前分支 
 
 查看本地分支
-git branch
+#git branch
 
 切换分支命令
-git checkout -b v1 origin/v1
+#git checkout -b v1 origin/v1
 
 切换回master
-git checkout master
+#git checkout master
+
+git clone下载代码，中途断掉怎么办？
+#git submodule update --init --recursive
 
 python如何创建自己的pipy:(python2 运行有问题，但是Python3正常)
 >python2 setup.py check 
